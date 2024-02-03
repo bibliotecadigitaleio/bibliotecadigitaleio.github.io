@@ -1,0 +1,21 @@
+.dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu  {
+    display: block;
+    margin-top: 0.125em;
+}
+
+.dropend:hover > .dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+}
+
+@media screen and (min-width:769px) {
+    .dropend .dropdown-toggle{
+      margin-left: .5em;
+    }
+}
+
